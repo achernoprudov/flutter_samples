@@ -37,7 +37,6 @@ class _EndlessCommandPageState extends State<EndlessCommandPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFECDAC3),
       appBar: AppBar(title: const Text('Command animation')),
       body: Center(
         child: AnimatedBuilder(
