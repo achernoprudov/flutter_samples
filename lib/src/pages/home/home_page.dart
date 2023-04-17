@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
           final sample = _samples[index];
           return ListTile(
             title: Text(sample.title),
-            onTap: () => context.go(sample.navigationPath),
+            onTap: () => context.push(sample.navigationPath),
           );
         },
       ),
